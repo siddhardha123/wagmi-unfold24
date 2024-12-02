@@ -8,13 +8,17 @@ const navlinks = [
         sublist: [{ name: "Overview", href: "/" }, {}, {}],
     },
     {
-        name: "Profile",
-        href: "/profile",
+        name: "Listing",
+        href: "/listing",
         sublist: [{ name: "Settings", href: "/" }, {}, {}],
     },
     {
-        name: "Projects",
-        href: "/projects",
+        name: "Upload",
+        href: "/upload",
+        sublist: [{}, {}, {}],
+    },{
+        name: "Verify",
+        href: "/verify",
         sublist: [{}, {}, {}],
     },
 ];
@@ -27,7 +31,7 @@ function Navbar() {
                     {/* Logo Section */}
                     <div className="flex-shrink-0">
                         <a href="/" className="text-2xl font-bold text-red-600">
-                            Content<span className="text-black">Auth</span>
+                            AuthChain
                         </a>
                     </div>
 
@@ -46,7 +50,7 @@ function Navbar() {
 
                     {/* Wallet Connect */}
                     <div className="flex items-center space-x-4">
-                        <ConnectWallet accentColor="#CB1C8D" />
+                        <ConnectWallet accentColor={'red'} />
                     </div>
                 </div>
             </div>

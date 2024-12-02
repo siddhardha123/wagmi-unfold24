@@ -1,0 +1,18 @@
+{"list" : [
+  {
+    "id": 1,
+    "image": "https://i0.wp.com/nftandgamefi.com/wp-content/uploads/2022/07/bayc-nft-collection.jpg?resize=528%2C539&ssl=1",
+    "walletAddress": "0x1234567890abcdef1234567890abcdef12345678"
+  },
+  {
+    "id": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCPZnfBWt95EZoYvDsOXInd8ZN0QSXVwQZIg&s",
+    "walletAddress": "0xabcdefabcdefabcdefabcdefabcdefabcdef"
+  },
+  {
+    "id": 3,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfXNyBszUrkv76PqXDqxQfc4HbqevHHWbNxA&s",
+    "walletAddress": "0x13E0308bda6E015F3e63E914c1A8b5432466B409"
+  }
+]
+}
